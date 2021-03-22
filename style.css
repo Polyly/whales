@@ -1,0 +1,259 @@
+body{
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+ h2{
+    
+    margin:0px;
+    color: red;
+    text-align: center;
+    text-decoration: underline;  
+}
+
+
+
+/*----------------------------------styles for menu-------------------------------------*/
+
+.menu{
+    background-color: lightpink;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu a{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin:40px;
+    text-decoration: none;
+}
+
+/*-------------meni barvu kdyz na to kliknu--------*/
+.menu a:hover{
+    color: pink;
+    background-color: white;
+}
+/*---------------------------------styles for header-------------------------------------*/
+
+.header{
+    padding: 200px 0px;
+    background-size: 100% 100%;
+    text-align: left;
+    background-repeat: no-repeat;
+   background-image: url(kit.jpg);
+
+    position: relative;
+    
+    
+}
+
+.header h1{
+    
+position: absolute;
+top: 70px;
+    color: white;
+   font-size: 50px;
+    padding-left: 20px;
+    
+
+}
+
+.header p{
+    
+    color: white;
+    /*--------smestila nadpis vniz----*/
+    position: absolute;
+    
+    bottom: 100px;
+    right: 600px;
+}
+
+/*----------------------------------styles for facts-----------------------------------*/
+
+.facts{
+    
+    padding: 25px 15px;
+    background-color:lightpink;
+}
+
+
+.facts h1{
+    
+    margin:0px;
+    color: red;
+    text-align: center;
+    text-decoration: underline;  
+}
+
+
+/*--------------------------------styles for images-----------------------------*/
+
+.images{
+     
+    width: 50%;
+    margin-left: 31%;
+}
+
+.images img{
+    
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    
+   
+}
+
+
+
+.gallery h2{
+    
+    padding: 20px 0;
+}
+
+
+#beluga{
+    
+    border-style: solid;
+    border-width: 10px;
+    border-color: darksalmon;
+}
+
+#bluewhale{
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: lightpink;
+}
+
+#killerwhale{
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: deeppink;
+}
+
+#narluga{
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: hotpink;
+}
+
+
+/*----------------------------styles for contacts------------------*/
+
+
+
+#input{
+    
+    text-align: center;
+    
+    }
+
+
+
+
+.form input,select,textarea{
+    
+    
+    border-radius: 10px;
+    border-color: coral;
+    border-width: 3px;
+    border-style: solid;
+    
+    
+}
+
+
+
+.contacts{
+   background-color: bisque;
+text-align: center;
+padding: 50px 0px;
+
+
+}
+
+.name{
+    
+    width: 200px;
+    padding: 10px;
+    margin: 15px;
+}
+
+
+.email{
+    
+    width: 200px;
+    padding: 10px;
+}
+
+
+
+
+.interest{
+    
+
+    width: 200px;
+    padding: 10px;
+    
+}
+
+
+.text{
+    
+    margin: 0px;
+}
+
+
+
+
+.submit{
+    
+ width: 80px;
+    margin: 0px auto;
+    
+    display: block;
+    padding: 15px px;
+   
+    
+    
+}
+
+
+
+.form{
+    
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+    
+
+.text{
+    
+    width: 300px;
+    height: 60px;
+    
+    
+}
+
+
+
+
+label{
+
+    margin: 10px;
+    display: block;
+}
+
+
+
+
+
+
+
+
