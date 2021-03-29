@@ -155,8 +155,10 @@ top: 70px;
 
 
 
-.form input,select,textarea{
+.form input,select,textarea,.submit{
     
+    width: 200px;
+    padding: 10px;
     
     border-radius: 10px;
     border-color: coral;
@@ -178,16 +180,14 @@ padding: 50px 0px;
 
 .name{
     
-    width: 200px;
-    padding: 10px;
+    
     margin: 15px;
 }
 
 
 .email{
     
-    width: 200px;
-    padding: 10px;
+    
 }
 
 
@@ -196,8 +196,7 @@ padding: 50px 0px;
 .interest{
     
 
-    width: 200px;
-    padding: 10px;
+   
     
 }
 
@@ -212,11 +211,16 @@ padding: 50px 0px;
 
 .submit{
     
- width: 80px;
+    color: white;
+    
+    text-transform: uppercase;
+  
+    background-color: indianred;
+    
     margin: 0px auto;
     
     display: block;
-    padding: 15px px;
+    
    
     
     
@@ -249,6 +253,36 @@ label{
     margin: 10px;
     display: block;
 }
+
+
+
+fieldset{
+    
+    margin: 10px;
+     border-color: indianred;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
